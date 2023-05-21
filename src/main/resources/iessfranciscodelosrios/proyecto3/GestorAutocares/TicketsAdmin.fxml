@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="571.0" style="-fx-background-color: #265599;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iessfranciscodelosrios.proyecto3.GestorAutocares.TicketAdminController">
+   <children>
+      <TableView fx:id="myTable" layoutX="42.0" layoutY="103.0" prefHeight="276.0" prefWidth="488.0">
+        <columns>
+          <TableColumn fx:id="consumer" prefWidth="146.39997100830078" text="CLIENTE" />
+          <TableColumn fx:id="journey" minWidth="0.0" prefWidth="136.79998779296875" text="VIAJE" />
+            <TableColumn fx:id="date" prefWidth="205.60000610351562" text="FECHA" />
+        </columns>
+      </TableView>
+      <TextField fx:id="buscar" layoutX="305.0" layoutY="42.0" prefHeight="26.0" prefWidth="215.0" />
+      <Text layoutX="491.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🔎" wrappingWidth="20.79998779296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

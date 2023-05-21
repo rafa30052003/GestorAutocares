@@ -1,0 +1,401 @@
+/* RX AEOLUS
+================================================== */
+.aeolusFont1{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.aeolusFont2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.rx_thumb_ui{
+	position: relative;
+	margin-bottom: 25px;
+}
+.rx_thumb_ui_one_col{	
+	margin-bottom: 40px;
+}
+.rx_thumb_container img{
+	width: 100%;
+}
+.rx_image_link{
+	text-decoration: none !important;
+	outline: none !important;
+}
+.rx_hoverui{
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	left: 0px;
+	top: 0px;	
+	overflow: hidden;
+	cursor: pointer;
+	background-color: #1abb9f;
+	background: rgba(26, 187, 159, .6);
+}
+.rx_thumb_title{	
+	font-size: 18px !important;
+	text-transform: uppercase !important;
+	color: #FFFFFF !important;
+	font-weight: 300 !important;
+	text-align: center !important;
+	line-height: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+/* RX AEOLUS PARALLAX
+================================================== */
+.rx_parallax{
+	position: relative;
+}
+.rxParalaxItem{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	background-repeat:no-repeat;
+	background-attachment:fixed;	
+	background-size: cover;			
+	background-color: #000;
+}
+.portfolioExcerptTriangleUI, .footerTriangleUI{
+	width: 640px;
+	height: 300px;	
+	position: absolute;	
+	top: 0px;	
+}
+.portfolioExcerptTriangle, .footerTriangle{	
+	width: 100%;
+	height: 300px;	
+}
+.svgTriangle{	
+	position: absolute; 
+	left: 0px;
+	top: 0px;
+	z-index: 500;
+}
+
+.portfolioTitleUI{
+	width: 600px;
+	height: 300px;	
+	position: absolute;
+	z-index: 501;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}
+.titlePortfolio{
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 22px !important;
+	padding: 0px 40px !important;
+	margin-top: 35px !important;
+}
+.portfolioHLine{
+	width: 270px;
+	height: 1px;
+	position: relative;
+	margin: auto;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	background-color: #F2F2F2;
+	background: rgba(242,242,242,.4);
+}
+.portfolioSubtitle{
+	text-align: center;
+	color: #FFFFFF !important;
+	text-transform: uppercase;
+	font-size: 19px !important;
+	padding: 0px 80px !important;	
+	font-weight: 300 !important;
+	margin-top: -12px !important;
+}
+.permalinkTriangleUI{
+	width: 140px;
+	height: 75px;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+}
+a.openPortfolio{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 15px !important;
+	color: #FFFFFF !important;
+	font-size: 18px !important;
+	text-transform: uppercase;	
+	border-width: 1px;
+	border-color: #FFFFFF;
+	font-weight: 300;
+	top: -76px;
+	position: relative;	
+	z-index: 501;
+}
+a.openPortfolio:hover{
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+
+.portfolioItemBottomUI{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 4000px;
+	height: 1300px;
+}
+.left_right_triangle{
+	width: 2000px;
+	height: 100%;		
+	float: left;	
+}
+
+.portfolioSideNav{
+	width: 15px;	
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	z-index: 9999;
+}
+.portfolioNavPoint{
+	width: 100%;
+	height: 15px;
+	margin-bottom: 10px;	
+}
+
+
+/* PORTFOLIO - SINGLE 
+================================================== */
+.portfolioSingleFeaturedImages{
+	width: 100%;
+	height: 500px;
+	min-height: 95%;
+	background-color: #CCC;	
+}
+#featuredimages{
+	display: none;
+}
+.featuredImagesNav{
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	background-color: #000;
+	background: rgba(0,0,0,0.3);
+	bottom: 0px;
+}
+.centeredNav{	
+	max-width: 740px;
+	height: 130px;	
+	position: relative;
+	margin: auto;
+	top: 30px;
+}
+.leftNavControl, .rightNavControl{
+	width: 40px;
+	height: 100%;
+	position: absolute;
+	top: 0px;	
+	cursor: pointer;
+}
+.leftNavControl{
+	left: 0px;
+	z-index: 99999;
+}
+.rightNavControl{
+	right: 0px;
+	z-index: 99991;
+}
+.nav_svg{
+	position: relative;
+	top: 25px;
+}
+.navContentMask{
+	width: 100px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 40px;	
+	overflow: hidden;
+}
+.navContent{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 100%;	
+}
+.portfolioThumbItem{
+	width: 220px;
+	height: 130px;	
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+.svgLinesUI{
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+	width: 100%;
+	height: 100%;
+}
+.svgLine{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.portfolioVideoShowcase{
+	width: 100%;
+}
+.relatedPortfolio{
+	margin-bottom: 40px;
+}
+.rx_related_posts{
+	margin: 25px 0px;
+	margin-bottom: 5px;
+}
+.relatedTitleUnderline{
+	height: 1px;
+	background-color: #CCCCCC;
+	margin-top: -5px;
+}
+.rx_related_post{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.hero_thumb_image_link{
+	display: block;
+}
+.hero_thumb_image_link img{
+	width: 100%;
+}
+
+.rx_related_post_overlay{
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	width: 100%;
+	height: 1px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;	
+}
+a.rx_related_link{
+	color: #F2F2F2 !important;
+	text-transform: uppercase !important;
+	text-decoration: none !important;
+	line-height: 70px;
+	font-size: 18px;
+}
+
+.rx_nav{
+	margin-top: -30px;
+}
+.related_content .nextPost a, .related_content .previousPost a{
+	text-transform: uppercase;			
+}
+.related_content .nextPost a:hover, .related_content .previousPost a:hover{
+	text-decoration: underline;
+}
+.previousPost a{
+	margin-right: 10px;
+}
+
+
+
+/* PAGE
+================================================== */
+.portfolioSingleContent{	
+	padding: 20px 0px;
+}
+.pageTitle{
+	text-align: center !important;
+	color: #000;
+	text-transform: uppercase !important;
+	font-size: 26px !important;
+	padding: 0px 40px !important;
+	margin-top: 50px !important;
+	margin-bottom: 28px !important;	
+	font-weight: bold;
+}
+.pageSubtitle{
+	text-align: center !important;
+	color: #000;
+	text-transform: uppercase !important;
+	font-size: 19px !important;
+	padding: 0px 80px !important;	
+	font-weight: 300;
+	margin-top: -12px !important;	
+}
+.rxPostContent{	
+	position: relative;		
+	max-width: 1200px !important;	
+	margin: auto;
+	margin-top: 50px; margin-bottom: 50px;
+}
+@media all and (min-width: 700px) {
+	.rxPostContent{	
+		padding: 0px 20px;
+	}
+}
+
+.rxPostContentIndex{
+	margin-top: 70px;
+}
+
+
+
+/*UTILS
+================================================== */
+.clear-fx{
+	clear: both;
+}
+
+
+/*PAGINATION
+================================================== */
+.paginationUI{	
+	text-align: center;
+	margin-top: 25px;	
+}
+.paginationrx {
+	clear:both;
+	padding:0px 0px !important;
+	margin:0px 0px !important;
+	position:relative;
+	font-size:18px !important;
+	line-height:20px !important;
+	position: relative;
+	margin: auto !important;
+	display: inline-block;
+}
+
+.paginationrx span, .paginationrx a {
+	display:block;
+	margin: 2px 2px 2px 0 !important;
+	padding:6px 9px 5px 9px !important;
+	text-decoration:none;
+	width:auto;
+	color: #FFF;
+	float: left;
+}
+.paginationrx span{
+	float: left;
+}
+.paginationrx a{
+	text-decoration: none !important;
+}
+.paginationrx a:hover{
+	text-decoration: none !important;
+	color: #FFF !important;	
+}
+
+.paginationrx .current{
+padding:6px 9px 5px 9px;
+background-color: #829bb0;
+}
+/* END PAGINATION
+================================================== */

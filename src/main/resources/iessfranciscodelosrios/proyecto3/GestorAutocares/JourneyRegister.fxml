@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="396.0" style="-fx-border-color: rgba(11,30,96,255); -fx-border-width: 5;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iessfranciscodelosrios.proyecto3.GestorAutocares.JourneyRegisterController">
+   <top>
+      <AnchorPane prefHeight="140.0" prefWidth="396.0" style="-fx-background-color: rgba(11,30,96,255);" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="101.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NUEVO&#10;VIAJE" textAlignment="CENTER" wrappingWidth="194.93677520751953">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font></Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="372.0" prefWidth="388.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtOrigin" layoutX="184.0" layoutY="36.0" />
+            <TextField fx:id="txtDestination" layoutX="182.0" layoutY="84.0" />
+            <Label layoutX="50.0" layoutY="36.0" text="ORIGEN:" textFill="#265599">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font></Label>
+            <Label layoutX="50.0" layoutY="84.0" text="DESTINO:" textFill="#265599">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font></Label>
+            <Button layoutX="25.0" layoutY="164.0" mnemonicParsing="false" onAction="#addJourney" prefHeight="42.0" prefWidth="336.0" style="-fx-background-color: #265599;" text="REGISTRARSE" textFill="#fcfcfc">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

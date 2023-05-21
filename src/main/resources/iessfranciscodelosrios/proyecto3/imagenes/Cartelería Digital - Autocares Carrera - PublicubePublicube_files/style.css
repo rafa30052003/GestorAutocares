@@ -1,0 +1,623 @@
+/*
+Theme Name: Betheme (shared on wplocker.com)
+Theme URI: http://themes.muffingroup.com/betheme
+Description: Betheme - Premium WordPress Theme
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, post-formats, responsive-layout, theme-options, translation-ready
+Author: Muffin group
+Author URI: http://muffingroup.com
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 6.1
+
+All css files are placed in /css/ folder.
+If you want to add your own css code, please do it in /css/custom.css
+
+*/
+/*App-Restaurante*/
+.App_cont{width: 32%; margin-left: 1%; height: auto; float: left;} 
+.App_Text{font-size: 22px; text-align: justify; margin-bottom: 1%; height: 200px;}
+.App_Title{font-size: 24px; font-weight: bold; margin-bottom: 5%;}
+.wpb_wrapper .posts_group .image_wrapper{max-height:128px;}
+/*imagenes blog*/
+/*.posts_group .image_wrapper{  max-height: 128.6px;}*/
+/*Slider*/
+.tp-bullets.simplebullets.round .bullet {
+  background: #333;
+}
+
+/*Pop Up subscribe*/
+.wdpu-content button{
+	width:350px;
+}
+
+.wdpu-content{
+	text-align:center;
+}
+.wdpu-content input{
+	/*float:left;*/
+	margin-left:26% !important;
+	width:350px !important;
+}
+#a213e899411b97aa8d4712a57208ebdac.wdpu-msg {
+  position: relative;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: left;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  /* Size / responsiveness */
+  max-width: 600px;
+  min-width: 100px;
+}
+#ae99c80fab4fa2f13dc78a5b4bdd412ea .wdpu-title, #ae99c80fab4fa2f13dc78a5b4bdd412ea .wdpu-subtitle{
+  font-size: 65.5px;
+  line-height: 1.3em;
+  margin: 0 0 0 !important;
+  color: #488CFD;
+  text-align: center;
+}
+
+
+
+/*Listado categorías Home*/
+.text_Cat{
+	width:90%;
+	padding:5%; 
+	height:50px;
+	overflow:auto; 
+	font-size:16px;
+	float:left;
+}
+.image_frame.cat .image_wrapper .image_links.double a {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.image_frame.cat {
+  border-width: 0 !important;
+  border-style: solid;
+  display: block;
+  max-width: 32%;
+  line-height: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 1.333333333%;
+  margin-top:3%;
+}
+.image_frame.cat a:hover{
+	text-decoration:none;
+}
+/*Formulario Captador página Home*/
+.form_Home{
+  height: 238px;
+  width: 50%;
+  margin-left: 25%;
+  float: left;
+	}
+
+/*Capa Slider*/
+.Slider_Home{
+	width:50%;
+	height:auto;
+	float:left;
+
+}
+/*Captador Home*/
+.captador_Home{
+	width:50%;
+	height: auto;
+	float: right;
+  	margin-top: -2.6%;	
+}
+/*Texto Captador*/
+.captador{
+	width:100%;
+	height:50%;
+	margin-bottom: 5%;
+}
+.text_capt{
+	width: 97%;
+	height: 49%;
+  	float: left;
+  	color: #bb2727;
+  	font-size: 43px;
+  	text-align: center;
+  	padding-top: 1%;
+  	line-height: 132%;
+  	padding-left: 3%;
+}
+.text_capt h2{
+  	color: #d4aa27;
+  	font-size: 43px;
+  	text-align: center;
+  	line-height: 132%;
+}
+.free {
+	color:#bb2727;
+	font-size:33px;
+	text-align:center;
+	text-transform: uppercase;	
+}
+.we {
+	color:#3b68b2;
+	font-size:24px;
+	text-align:justify; 
+	padding: 2%;
+	margin-bottom:6%;
+}
+.info_cap{
+	width:47%;
+	height:50%;
+	float:left;
+	padding-left:3%; 
+	text-align:center;
+}
+.img_captador{
+	width:50%;
+	height:50%;
+	float:left;
+}
+.captador_Home button{margin-left:1%;}
+/*Listado Categorís Artículos Servicios*/
+.ListCategoria{
+	width: 100%;
+  	max-width: 210px;
+  	min-height: 220px;
+	float: left;
+}
+
+.nomListCat{}
+.nomListCat a{
+	padding-left: 10%;
+	text-align: center;
+	font-size: 16px;
+	height: auto;
+	color: #ccc;
+	background: #444444;
+	margin: 0;
+  	padding: 7px 5px 9px;
+  	text-decoration: none;
+	transition: all 0.5s ease 0s;
+	border-radius: 2px 2px 2px 2px;
+}
+.nomListCat a:hover{
+	  margin: 5px 0;
+  padding: 2px 5px 4px;
+}
+
+.nomList a{
+	margin-left: 40%;
+	padding-left: 10%;
+	text-align: left;
+	font-size: 12px;
+	color: #444444;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	transition: all 0.5s ease 0s;
+	text-decoration:none
+	}
+.nomList a:hover {
+padding-left: 10%;
+}
+.nomList{}
+/*Menú Header*/
+/*Apps Móviles*/
+#menu-item-533.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#fbba00;
+    /*padding:0 !important;*/
+    color:#fff;
+}
+/*3D y Fotografía*/
+#menu-item-275.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#ed7b01;
+    /*padding:0 !important;*/
+    color:#fff;
+}
+/*Diseño WebMedia*/
+#menu-item-1588.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#cacc07;	
+    /*padding:0 !important;*/
+    color:#fff;
+}
+/*Espacios*/
+#menu-item-279.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#e40f48;
+    /*padding:0 !important;*/
+    color:#fff;
+}
+/*Marketing Online*/
+#menu-item-280.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#9c0a7d;
+    /*padding:0 !important;*/
+    color:#fff;
+}
+/*Diseño Gráfico*/
+#menu-item-277.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#0098af;
+    /*padding:0 !important;*/
+    color:#fff;;
+}
+/*Blog*/
+#menu-item-2463 a:hover {
+    background:#38373a;
+    /*padding:0  !important;*/
+    color:#fff  !important;;
+}
+/*Cloud*/
+#menu-item-2463 a:hover {
+    background:#38373a;
+    /*padding:0  !important;*/
+    color:#fff  !important;
+ }
+/*Servicios Wifi*/
+#menu-item-2464 a:hover {
+    background:#38373a;
+    /*padding:0  !important;*/
+    color:#fff  !important;
+ }
+/*Servicios Kit Digital*/
+#menu-item-2948 a:hover {
+    background:#38373a;
+    /*padding:0  !important;*/
+    color:#fff  !important;
+ }
+/*Porfolio*/
+#menu-item-1795 a:hover {
+    background:#38373a;
+   /* padding:0 ;*/
+    color:#fff !important;
+}
+#menu-item-1860.menu-item.menu-item-type-taxonomy.menu-item-object-category a:hover {
+    background:#38373a;
+   /* padding:0 ;*/
+    color:#fff !important;
+}
+/*Apps Móviles*/
+#menu-item-533.menu-item.menu-item-type-taxonomy.menu-item-object-category a {
+    background:#fff;
+    color:#333;
+}
+/*3D y Fotografía*/
+#menu-item-275.menu-item.menu-item-type-taxonomy.menu-item-object-category a{
+    background:#fff;
+    color:#333;
+}
+/*Diseño WebMedia*/
+#menu-item-1588.menu-item.menu-item-type-taxonomy.menu-item-object-category a{
+    background:#fff;
+    color:#333;
+}
+/*Espacios*/
+#menu-item-279.menu-item.menu-item-type-taxonomy.menu-item-object-category a{
+    background:#fff;
+    color:#333;
+}
+/*Marketing Online*/
+#menu-item-280.menu-item.menu-item-type-taxonomy.menu-item-object-category a{
+    background:#fff;
+    color:#333;
+}
+/*Diseño Gráfico*/
+#menu-item-277.menu-item.menu-item-type-taxonomy.menu-item-object-category a{
+    background:#fff;
+    color:#333;
+}
+/*Cloud*/
+#menu-item-2463 a{
+    background:#fff;
+    color:#333;
+}
+/*Servicios Wifi*/
+#menu-item-2464 a {
+    background:#fff;
+    color:#333;
+ }
+/*Servicios Wifi*/
+#menu-item-2464 a{
+    background:#fff;
+    color:#333;
+ }
+/*Porfolio*/
+#menu-item-1795 a {
+   background:#fff;
+    color:#333;
+}
+#menu-item-1860.menu-item.menu-item-type-taxonomy.menu-item-object-category a {
+  	background:#fff;
+    color:#333;
+}
+
+
+/*Testimonios*/
+.post-488{
+  width: 33%;
+  float: left;
+  text-align: justify;
+}
+.post-489{
+  width: 33%;
+  float: left;
+  text-align: justify;
+}
+.post-490{
+  width: 33%;
+  float: left;  
+  text-align: justify;
+}
+
+.testimonials-widget-testimonial blockquote {
+  quotes: none;
+  height: 62px;
+  overflow: hidden;
+  -webkit-transition: top 0.4s ease-in-out, opacity 0.6s ease-in-out;
+    -moz-transition: top 0.4s ease-in-out, opacity 0.6s ease-in-out;
+    -o-transition: top 0.4s ease-in-out, opacity 0.6s ease-in-out;
+    -ms-transition: top 0.4s ease-in-out, opacity 0.6s ease-in-out;
+    transition: top 0.4s ease-in-out, opacity 0.6s ease-in-out;;
+}
+
+
+
+.testimonials-widget-testimonial blockquote:hover {
+height:auto;}
+.testimon{
+	height:315px;
+	float:left;
+}
+
+/*#wpleads_website.inbound-input.inbound-input-text.introduce-una-url{
+	width:100% !important;}
+
+#wpleads_email_address.inbound-input.inbound-input-text.introduce-un-email.inbound-email {
+	width:100% !important;
+}
+.captador_Home#inbound_form_submit.inbound-button-submit.inbound-submit-action{	
+}*/
+
+/*Pie de página*/
+#Footer .enlacespie {
+	width: 25%; 
+	height: 100px;
+	float: left;
+	color: #626262 !important;
+}
+#Footer .enlacespie .columna_footer {
+	width: 90%;
+	border-bottom: 1px solid #444444; 
+	padding-left: 3%;
+	font-weight: bold;
+}
+#Footer .enlacespie .columna_footer a {
+	color: #626262 !important;
+}
+
+
+/*Diseño Responsivo*/	
+@media only screen and (max-width: 1239px) and (min-width: 960px) {
+.testimon{height:440px;}
+}
+
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+.post-488{width: 50%;}
+.post-489{width: 50%;float:right;}
+.post-490{width: 50%;}
+.testimon{height:350px;}
+.image_frame.cat {max-width:48%;}
+.titulo-Arti {padding-top: 5.5%;}
+.text_capt h2 {font-size: 33px;}
+.we {font-size: 18px;}
+.captador_Home button {margin-left: 0%;font-size: 20px;width: 100%;}
+.form_Home{width: 80%;margin-left: 13%;}
+.App_cont{width: 48%;} 
+
+}	
+@media only screen and (max-width: 767px){
+.testimonials-widget-testimonial blockquote {height:auto;}
+.post-488{width: 100%;}
+.post-489{width: 100%;}
+.post-490{width: 100%;}
+.testimon{height:auto;}
+.enlacespie{width:50%; }
+.image_frame.cat {max-width:48%;}
+.text_Cat {font-size: 12px;}
+.wdpu-content input{margin-left:0% !important;}
+.LastBlog a{padding-left:0%;}
+.LastPortafolio a {padding-left:0%;}
+.captador_Home button{font-size:13px;}
+.captador_Home label{font-size:17px !important;}
+.form_Home {width:100%;}
+.text_capt h2 {font-size: 19px;}
+.we {font-size: 13px;}
+.free {font-size: 21px;float: right;margin-top: -86%;margin-right: -140%;}
+.App_cont{width: 48%;margin-left:2%} 
+.App_Text{height: 300px;font-size:16px;}
+.App_Title{font-size:17px;}
+}
+@media only screen and (max-width: 691px){
+.image_frame.cat {max-width:48%;}
+.text_Cat {font-size: 12px;}
+.wdpu-content button{width:100%;}
+.wdpu-content input{margin-left:0% !important;width:100% !important;}
+.Slider_Home{width:100%;margin-bottom: 10%}
+.captador_Home{width:100%;}
+.form_Home{margin-left:0%;}
+
+.text_capt h2 {font-size: 30px;}
+.img_captador{width:47%;}
+.we {font-size: 15px;}
+.free {font-size: 30px;float:none;margin-top:0;margin-right:0;}
+}
+@media only screen and (max-width: 479px){
+.enlacespie{width:100%; }
+.post-488{width: 100%;}
+.post-489{width: 100%;}
+.post-490{width: 100%;}
+.image_frame.cat {max-width:100%;}
+.text_Cat {font-size: 16px;}
+.captador_Home button{font-size:13px;}
+.captador_Home label{font-size:17px !important;}
+.text_capt h2 {font-size: 30px;}
+.we {font-size: 22px;}
+.free {font-size:33px;float: left;margin-left: 18%;text-align:center;}
+.form_Home{margin-left:0%;}
+.captador_Home{height:auto;margin-bottom: 10%;}
+.info_cap{width:97%;}
+.img_captador{height: 0;float: left;margin-top: 2%;opacity: 0;}
+.imagen-Arti{width: 50px;height: 50px;}
+.LastPortafolio {width: 100%;}
+.LastBlog {width: 100%;}
+.captador_Home button{margin-left: 18%;}
+.App_cont{width: 100%;margin-left:0%} 
+.App_Text{height: auto;font-size:24px;}
+.App_Title{font-size:28px;}
+}
+
+/*Cabecera*/
+.SubLogo,.logo, .Banner, .SubTime{width:33%;height:auto;float:left;text-align:center;}
+.Phones{width: 60%;float: left;font-size: 16px;color: #333;}
+.telephone {width:90%;margin-left:90%}
+.CallMe{width: 80%; margin-bottom:15px; float: left; font-size: 18px; color: #333;padding-top:10px;}
+@media screen and (max-width: 1990px){.Phones{font-size:15px}.CallMe{font-size:17px}}
+@media screen and (max-width: 1780px){.telephone{margin-left:76%;}}
+@media screen and (max-width: 1600px){.telephone{margin-left:60%;}}
+@media screen and (max-width: 1363px){#Top_bar.column.one{margin-top:-14%;height:24px;}.logo, .SubLogo{width:50%}.SubTime{width:0%;opacity:0; display:none;}}
+@media screen and (max-width: 1300px){.telephone{margin-left:30%;}}
+@media screen and (max-width: 1131px){.Phones{font-size:14px}.CallMe{font-size:16px}}
+@media screen and (max-width: 1100px){.telephone{margin-left:20%;}}
+@media screen and (max-width: 1054px){.CallMe{font-size:15px}}
+@media screen and (max-width: 1000px){.telephone{margin-left:10%;}}
+@media screen and (max-width: 990px){.Phones{font-size:13px}.CallMe{font-size:14px}}
+@media screen and (max-width: 920px){.Phones{font-size:17px}.CallMe{font-size:18px}telephone{margin-left:20%;}}
+@media screen and (max-width: 873px){.telephone{margin-left:15%;}}
+@media screen and (max-width: 797px){.Phones{font-size:16px}.CallMe{font-size:17px}}
+@media screen and (max-width: 748px){.Phones{font-size:15px;padding-bottom:5%;}.CallMe{font-size:16px}.telephone{margin-left:10%;}}
+@media screen and (max-width: 703px){.Phones{font-size:14px}.CallMe{font-size:15px}}
+@media screen and (max-width: 660px){.Phones{font-size:13px}.CallMe{font-size:14px}#Social-Sidebar.Pos-Left{display:none;}}
+@media screen and (max-width: 615px){.Phones{font-size:20px}.CallMe{font-size:21px}.logo, .SubLogo{width:100%;}.SubLogo{ display:none;}}
+@media screen and (max-width: 473px){.Phones{font-size:19px}.CallMe{font-size:20px}}
+@media screen and (max-width: 450px){.Phones{font-size:18px}.CallMe{font-size:19px}.telephone{margin-left:5%;}}
+@media screen and (max-width: 430px){.Phones{font-size:17px}.CallMe{font-size:18px}}
+@media screen and (max-width: 410px){.Phones{font-size:16px}.CallMe{font-size:17px}}
+@media screen and (max-width: 380px){.Phones{font-size:15px}.CallMe{font-size:16px}}
+@media screen and (max-width: 360px){.Phones{font-size:14px}.CallMe{font-size:15px}}
+@media screen and (max-width: 335px){.Phones{font-size:13px}.CallMe{font-size:14px}}
+
+
+#Top_bar a.responsive-menu-toggle {height:auto;margin-top:-45px;}
+
+.tp-bullets.simplebullets.round.bullet {background: none repeat scroll 0 0 #38373a;
+}
+
+#post-2246 h1 {display: none;}
+
+/*==== CSS Kit digital =====*/
+
+.page_kit_digital .section_kit_digital{
+    margin-bottom: 40px;
+	padding-left: 20px;
+}
+
+.page_kit_digital .section_kit_digital .title_kit_digital{
+    padding-left: 20px;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 1.5rem;
+	row-gap: 1rem;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital{
+    height: 350px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border: 4px solid rgba(204, 204, 204, 0.2);
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital .precio_card,
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital .title_card{
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital .title_card{
+    font-size: 20px;
+    transition: all .4s ease;
+    color: #C9182F;
+    text-transform: uppercase;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital p{
+    text-align: center;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital p .precio_card{
+    margin: 5px auto 5px;
+    padding: 8px 15px;
+    font-size: 22px;
+    color: white;
+    background: #E47616;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital .kit_descript{
+    text-align: left;
+    padding: 5px 0;
+}
+
+.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital p .kit_info{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+/* Clase para el botón de enviar del formulario de contacto de kit-digital */
+.btn_kit{
+	margin: 5px auto 5px;
+    padding: 8px 15px;
+    font-size: 22px;
+	color: white;
+    background: #E47616 !important;
+}
+
+@media screen and (max-width: 959px){
+	.page_kit_digital .section_kit_digital .cards_kit{
+		width: 100%;
+		grid-template-columns: repeat(2, auto);
+	}
+	
+	.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital p .precio_card{
+		    font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 599px){
+	.page_kit_digital .section_kit_digital .cards_kit{
+		width: 100%;
+		grid-template-columns: repeat(1, auto);
+	}
+	
+	.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital p .precio_card{
+		margin: 3px auto 3px;
+    	padding: 5px 10px;
+		font-size: 16px;
+	}
+	
+	.page_kit_digital .section_kit_digital .cards_kit .card_kit_digital p .kit_info{
+		    font-size: 14px;
+	}
+	
+}

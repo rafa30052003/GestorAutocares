@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="571.0" style="-fx-background-color: #265599;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iessfranciscodelosrios.proyecto3.GestorAutocares.ConsumerAdminController">
+   <children>
+      <TableView fx:id="myTable" layoutX="18.0" layoutY="101.0" prefHeight="276.0" prefWidth="536.0">
+        <columns>
+          <TableColumn fx:id="cod_c" prefWidth="48.79998588562012" text="COD_C" />
+          <TableColumn fx:id="name" minWidth="0.0" prefWidth="136.79999542236328" text="NOMBRE" />
+            <TableColumn fx:id="dni" minWidth="0.0" prefWidth="128.00006103515625" text="DNI" />
+            <TableColumn fx:id="tlf" prefWidth="134.39996337890625" text="TELEFONO" />
+            <TableColumn fx:id="user" minWidth="0.0" prefWidth="89.60000610351562" text="USUARIO" />
+        </columns>
+      </TableView>
+      <TextField fx:id="buscar" layoutX="329.0" layoutY="34.0" prefHeight="26.0" prefWidth="215.0" />
+      <Text layoutX="523.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🔎" wrappingWidth="20.79998779296875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

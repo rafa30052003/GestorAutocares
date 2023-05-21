@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iessfranciscodelosrios.proyecto3.GestorAutocares.LoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="226.0" style="-fx-background-color: rgba(11,30,96,255);" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="170.0" fitWidth="170.0" layoutX="28.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/pngwing.com.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #e06930; -fx-border-width: 4;" styleClass="fx-bac" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Mi%20proyecto.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="187.0" text="Usuario:" textFill="#265599">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="255.0" prefHeight="27.0" prefWidth="102.0" text="Contraseña:" textFill="#265599">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUser" layoutX="119.0" layoutY="187.0" onAction="#eventKey" />
+            <PasswordField fx:id="txtPassword" layoutX="120.0" layoutY="256.0" onAction="#eventKey" />
+            <Button fx:id="btnLogin" layoutX="29.0" layoutY="325.0" mnemonicParsing="false" onAction="#eventAtion" prefHeight="42.0" prefWidth="102.0" style="-fx-background-color: #265599;" text="Iniciar Sesion" textFill="#fcfcfc">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnRegister" layoutX="150.0" layoutY="325.0" mnemonicParsing="false" onAction="#eventAtion" prefHeight="42.0" prefWidth="102.0" style="-fx-background-color: #265599;" text="Registrarse" textFill="#fcfcfc">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

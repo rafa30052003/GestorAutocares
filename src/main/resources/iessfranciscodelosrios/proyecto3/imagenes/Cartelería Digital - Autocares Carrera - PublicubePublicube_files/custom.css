@@ -1,0 +1,45 @@
+/* If you want to add your own CSS code, please do it in this file */
+a {
+	color:#333;
+}
+body{
+	/*font-family: Swis721,Arial;*/
+}
+.entry-title {margin-bottom:8px;}
+.entry-title a{font-size:22px;color:#2991d6;}
+.post-excerpt{
+	text-align:justify;
+}
+
+#texto_explicacion { 
+	float: left; 
+	width: 65%; 
+	height: auto; 
+	display: block; 
+	margin-right: 2%; 
+	padding-right: 2%; 
+	border-right: 3px solid #b10048; 
+}
+#formulario { 
+	float: left; 
+	width: 29%; 
+	height: auto; 
+	display: block; 
+}
+h2 { 
+	font-size: 32px; 
+	line-height: 38px; 
+}
+#texto_explicacion p { 
+	text-align: justify; 
+	margin-top: 2%; 
+	font-weight: normal; 
+}
+#texto_explicacion img { border: 1px solid #b10048; }
+#texto_explicacion ul.sub { margin-left: 10%; }
+@media (min-width: 320px) and (max-width: 768px) { 
+	#texto_explicacion { width: 100%; border-right: none; margin-right: 0; padding-right: 0; } 
+	#formulario, #formulario input { width: 100%; }
+	
+	#texto_explicacion a { text-decoration: underline; }
+}
